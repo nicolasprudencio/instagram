@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 15px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    
+    background-color: rgb(243, 243, 243);    
+}
+
+#container {
+  display: flex;
+  align-items: center;    
+  
+  width: 60%;
+  height: 100vh;
+}
+
+.phone {
+  display: flex;    
+  justify-content: center;
+  
+  width: 50%;  
+  
+}
+
+.cel {
+  width: 700px;
+}
+
+#right-container {
+  display: flex;
+  align-items: center; 
+  
+  flex-direction: column;
+  margin-top: 2rem;
+  
+  width: 50%;
+  min-height: 34rem;
+}
+
+.profile-container {
+  border: 1px solid rgb(214, 213, 213);
+  background: white;
+  
+  height: 350px;
+  width: 350px;
+  
+  display: flex;
+  align-items: center;     
+  flex-direction: column;
+  justify-content: space-between;
+
+ 
+   
+  
+}
+
+.instagram {
+  margin-top: 2rem;
+}
+
+.perfil {
+  width: 100px;
+  clip-path: circle();
+
+}
+
+
+.button {
+  background: #0095f6;
+  color: white;
+  
+  padding: 10px 35px;
+  border-radius: 5px;
+  border: 0;
+  
+  
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+p {
+  
+  margin-bottom: 2rem;
+}
+
+p a {
+  color: #0095f6;
+  font-weight: bold;
+}
+
+p a:hover {
+  cursor: pointer;
+}
+
+.new-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 350px;
+  height: 50px ;
+  background: white;
+  border: 1px solid rgb(214, 213, 213);
+  
+}
+
+.new-container {
+  margin: 1rem 0 2rem 0;
+  
+  
+}
+
+.new-container a {
+  margin-bottom: .1rem;
+  color: #0095f6;
+  cursor: pointer;
+}
+
+
+
+.botoes img{
+  width: 150px;
+  cursor: pointer;
+}
+
+
+
+
+
+
